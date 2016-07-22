@@ -1,0 +1,209 @@
+@import 'variables';
+@import 'bootstrap';
+body
+{
+	font-size: $f-size;
+	min-width: 600px;
+}
+#header
+{
+	background: $mainColor;
+	padding: 55px 100px 0 100px;
+	.col-md-12 > div
+	{
+		padding: 15px 0 5px 0;
+		min-width: 200px;
+		background: $secondColor;		
+	}
+	ul li
+	{
+		padding: 0 10px;
+		font-size: 18px;
+		a
+		{
+			color: #7E7C7E;
+		}
+		a:hover
+		{
+			background: #fff;
+			color: $textColor;
+		}
+	}
+}
+#slider
+{
+	background:$mainColor;
+	padding: 50px 50px 0 50px;
+	.pullLeft
+	{
+		padding-left: 100px; 
+		float: $pL;
+		h1
+		{
+			font-size: 4em;
+		}
+	}
+	.pullRight
+	{
+		float: $pR;
+		padding-left: 50px;
+	}
+	li{
+		list-style-type: none;
+		text-align: left; 
+	}
+	.big-btns
+	{	
+		a
+		{
+			display: inline-block;
+			border: 3px solid #282528;
+		    padding: 1em 3em;
+		    font-size: 1em;
+		    font-weight: 600;
+		    color: #282528;
+		    margin-right: 0.6em;
+		    i
+		    {
+		    	font-size: 2em;
+		    }
+		}
+	}
+}
+#phoneImg
+{
+	background: $secondColor;
+	.col-md-12
+	{
+		padding-bottom: 50px;
+		h3
+		{
+			font-weight: 900;
+			padding: 50px 0; 	
+		}
+		p
+		{
+			font-size: 1.3em;
+		}
+	}
+	.pullLeft
+	{
+		i
+		{
+			font-size: 3em;
+		}
+	}
+	.col-md-4  div 
+	{
+		div
+		{
+			padding:10px;
+		}
+	}
+}
+#showRell
+{
+	background: $mainColor;
+	padding: 200px 0;
+	letter-spacing: 5px;
+	i
+	{
+		color: white;
+		padding: 10px;
+	}
+}
+#people
+{
+	background: $secondColor;
+	.container
+	{
+		padding-bottom: 100px;
+		h3
+		{
+			font-weight: 700;
+			padding:40px 0;
+		}
+		p
+		{
+			font-size: 1.2em;
+		}
+	}
+	li
+	{
+		list-style-type: none;
+		display: inline-block
+	}
+	.image
+	{
+		
+	}
+	.img-responsive 
+	{
+    display: block;
+    height: auto;
+    max-width: 100%;
+	}
+	.layInner 
+	{   
+		position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    opacity: 0;
+	    border-radius: 0;
+	    background: $mainColor;
+	    color: $textColor;
+	    padding: 50px 0 0 50px;
+	    transition: all .1s ease;
+	    font-size: 1em;
+	}
+	a
+	{
+		color: $textColor;
+		i
+		{
+			padding: 10px;
+			color: #fff;
+			background:#FAEE6B;
+		}
+	}
+	.layInner:hover
+	{
+		opacity: 1;
+	}
+  
+}
+#line
+{
+	height:10px;
+	width:100%;
+	background: $mainColor;
+}
+#footer
+{
+	.row
+	{
+		padding-top:30px;
+	}
+	i
+	{
+		color: #A5A5A6;
+		font-size: 1.2em;
+	}
+	.end li 
+	{
+		list-style-type: none;
+		a
+		{
+			color: #000;
+		}
+	}
+	.row
+	{
+		div:last-child
+		{
+			padding-top: 20px;
+		}
+	}
+}
